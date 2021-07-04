@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29" started-at="2021-06-27T10:50:41Z" finished-at="2021-06-27T10:50:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29" started-at="2021-06-27T10:50:41Z" finished-at="2021-06-27T10:50:41Z">
+      <class name="org.pro8.TestngParameters2">
+        <test-method status="FAIL" signature="tc10(java.lang.String, java.lang.String)[pri:0, instance:org.pro8.TestngParameters2@6767c1fc]" name="tc10" duration-ms="0" started-at="2021-06-27T16:20:41Z" finished-at="2021-06-27T16:20:41Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'username' is required by @Test on method tc10 but has not been marked @Optional or defined
+in C:\Users\91720\AppData\Local\Temp\testng-eclipse-800094477\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'username' is required by @Test on method tc10 but has not been marked @Optional or defined
+in C:\Users\91720\AppData\Local\Temp\testng-eclipse-800094477\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:569)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc10 -->
+        <test-method status="FAIL" signature="tc11(java.lang.String, java.lang.String)[pri:0, instance:org.pro8.TestngParameters2@6767c1fc]" name="tc11" duration-ms="0" started-at="2021-06-27T16:20:41Z" finished-at="2021-06-27T16:20:41Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'password' is required by @Test on method tc11 but has not been marked @Optional or defined
+in C:\Users\91720\AppData\Local\Temp\testng-eclipse-800094477\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'password' is required by @Test on method tc11 but has not been marked @Optional or defined
+in C:\Users\91720\AppData\Local\Temp\testng-eclipse-800094477\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:569)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1308)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1036)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1126)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc11 -->
+        <test-method status="PASS" signature="tc12()[pri:0, instance:org.pro8.TestngParameters2@6767c1fc]" name="tc12" duration-ms="4" started-at="2021-06-27T16:20:41Z" finished-at="2021-06-27T16:20:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12 -->
+        <test-method status="PASS" signature="tc13()[pri:0, instance:org.pro8.TestngParameters2@6767c1fc]" name="tc13" duration-ms="1" started-at="2021-06-27T16:20:41Z" finished-at="2021-06-27T16:20:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc13 -->
+        <test-method status="PASS" signature="tc14()[pri:0, instance:org.pro8.TestngParameters2@6767c1fc]" name="tc14" duration-ms="1" started-at="2021-06-27T16:20:41Z" finished-at="2021-06-27T16:20:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc14 -->
+      </class> <!-- org.pro8.TestngParameters2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
