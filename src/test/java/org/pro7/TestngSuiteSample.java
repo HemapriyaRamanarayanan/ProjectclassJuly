@@ -33,4 +33,4 @@ public class TestngSuiteSample {
 	  System.out.println("Method 5");
 	
 }
-
+}
