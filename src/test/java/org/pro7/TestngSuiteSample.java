@@ -28,5 +28,9 @@ public class TestngSuiteSample {
 	private void tc4() {
 	  System.out.println("Method 5");
 }
+	@Test
+	private void tc5() {
+	  System.out.println("Method 5");
+	
 }
 
